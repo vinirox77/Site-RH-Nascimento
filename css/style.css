@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+  overflow: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: black;
+}
+
+.header {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:1.5rem 7%;
+  border-bottom: #fff;
+  position: fixed;
+  top:0; 
+  left: 0; 
+  right: 0;
+  z-index: 1000; 
+}
+
+.header .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
